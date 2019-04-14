@@ -6,6 +6,15 @@ public class Mensaje implements Serializable {
 
 	private String texto;
 	private Long fecha;
+	private String color;
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
 
 	public String getTipo() {
 		return tipo;
